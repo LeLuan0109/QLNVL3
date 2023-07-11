@@ -1,0 +1,49 @@
+@import "./styles/Resume.scss";
+@import "./styles/ConfirmationDialog.scss";
+@import "./styles/ReleaseDialog.scss";
+@import "./styles/CurriculumVitae.scss";
+@import "./styles/Diploma.scss";
+@import "./styles/index.scss";
+@import "./styles/AddNewEmployee/index.scss";
+@import "./styles/MoreInfoDialog.scss";
+
+body {
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  margin: 0;
+}
+
+html *::-webkit-scrollbar {
+  border-radius: 0;
+  width: 8px;
+}
+
+html *::-webkit-scrollbar-thumb {
+  border-radius: 4px;
+  background-color: rgba(22, 24, 35, 0.001);
+}
+
+html *::-webkit-scrollbar-track {
+  border-radius: 0;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+.loading-full-screen {
+  z-index: 10000;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: #00000030;
+}
+
+
+.loading-full-screen-2 {
+  z-index: 100000;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  // background: #00000030;
+}
