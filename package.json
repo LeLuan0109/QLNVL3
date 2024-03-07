@@ -19,7 +19,7 @@
     "@mui/icons-material": "^5.11.0",
     "@mui/lab": "^5.0.0-alpha.112",
     "@mui/material": "^5.11.0",
-    "@mui/styles": "^5.11.0",
+    "@mui/styles": "^5.15.10",
     "antd": "^5.4.2",
     "axios": "^1.2.1",
     "babel-plugin-module-resolver": "^4.1.0",
